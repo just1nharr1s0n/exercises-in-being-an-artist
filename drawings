@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        background-color: #0F00FF;
+    }
+    
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+     h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+       h1:hover {
+        font-family: Arial, Helvetica, sans-serif;
+        color: yellow;
+    }
+       h3:hover {
+        font-family: Arial, Helvetica, sans-serif;
+        color: greenyellow;
+}
+        #mydiv {
+        position: absolute;
+        z-index: 9;
+}
+
+#mydivheader {
+  cursor: move;
+  z-index: 10;
+}
+</style>
+
+<body>
+    
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Responsive Image Gallery</h2>
+
+<h4>Resize the browser window to see the effect.</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="https://drive.google.com/file/d/1t8J_txSwvXPNxwZDqrg_rfVawXwKGWtH/view?usp=share_link" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="https://drive.google.com/file/d/1pfoewCLwISWjlxS1yT7eePXjYizk3JN4/view?usp=share_link" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="https://drive.google.com/file/d/1LATh1JqIr-7tR9WyxFekzAD4B_xGl9e8/view?usp=share_link" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="https://drive.google.com/file/d/1yUKMyr47n7frhZPUw_s-UaJigggAkIso/view?usp=share_link" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+</div>
+
+
+
+
+    
+<marquee scrollamount="10"
+direction="left"
+behavior="scroll">
+<h1>🤠🤠🤠🤠🤠🤠🤠🤠🤠🤠🤠🤠🤠🤠🤠🤠🤠"EXERCISES" IN ""BEING"" AN """ARTIST"""...🤠🤠🤠🤠🤠🤠🤠🤠🤠🤠🤠🤠🤠🤠🤠🤠🤠</h1>
+</marquee>
+    
+<script>
+function booksIreadThisYear {
+    
+}
+
+</script>
+    
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1411908154%3Fsecret_token%3Ds-TvxhasOOOax&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/b1gfr00t" title="BIGFROOT" target="_blank" style="color: #cccccc; text-decoration: none;">BIGFROOT</a> · <a href="https://soundcloud.com/b1gfr00t/v-ona/s-TvxhasOOOax" title="★彡 в𝓛ᑌ𝔼 ᗰⓄŇᵈⒶ𝕐 彡★" target="_blank" style="color: #cccccc; text-decoration: none;">★彡 в𝓛ᑌ𝔼 ᗰⓄŇᵈⒶ𝕐 彡★</a></div>
+<div id="mydiv">
+    <img id="mydivheader" width="50%" height="50%" src="https://images-na.ssl-images-amazon.com/images/I/517wTvVAKDL._SX321_BO1,204,203,200_.jpg">
+</div>
+
+</body>
+</html>
